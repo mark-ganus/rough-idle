@@ -1,0 +1,1 @@
+a análise de requisitos fornece ao projetista de software uma representação da informação, função e comportamento, que podem ser traduzidos para os projetos arquitetural, de interfaces e em nível de componentes. 

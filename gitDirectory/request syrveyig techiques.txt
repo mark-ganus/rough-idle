@@ -1,0 +1,35 @@
+ Técnicas e Estratégias de Validação de Software
+O principal para uma boa estratégia de validação é minimizar os problemas o mais cedo possível. Mas nem sempre isso é possível, então
+
+O que um bom plano deveria conter:
+
+1-) Testes Unitários (desenvolvedor);
+De preferência automáticos, para garantir que serão bons testes (testes unitários manuais tendem a fazer o "caminho feliz").
+
+Os testes podem ser estruturais (caixa branca), funcionais (caixa preta) ou de regressão (testes que verificam que o resultado final não mudou), mas para ajudar com o desenvolvimento dos testes unitários existem algumas técnicas de cobertura de código:
+- Partição em classes de equivalência (Equivalence class partitioning) - usar amostragem de cada possível valor que os parâmetros de entrada podem assumir
+- Análise de valores limite (Boundary Value Analysis) - nestes testes deve-se conferir os valores limites do software, onde há alterações de decisão
+- Transição de estados (State Transition Testing) - utilizado para testar as chamadas máquinas de estados e conferir que as transições estão acontecendo corretamente;
+- Tabela de decisão (Decision Table) - tabela com as variáveis como condições e quais ações tomar baseando-se em seus resultados, para verificar que estas sequências funcionam;
+- Testes Empareados (Pairwise Testing) - para cada par de parâmetros de entrada de um sistema, testa-se todas as combinações destes parâmetros;
+
+2-) Testes de Sistemas (desenvolvedor);
+Verificações com o sistema funcionando ou testes de partes integradas e não mais de funções individuais. Pode-se fazer uma integração incremental ou total em cada etapa de testes.
+
+Já para os testes de integração, é bom contar com algumas técnicas um pouco mais amplas:
+Integração Não-Incremental que usa a abordagem Big-Bang - já integra todo o software e testa ele todo integrado;
+Integração Incremental onde o programa é construído e testado em pequenos segmentos e cada vez se agrega uma parte maior do software;
+Integração Top-Down - integra e testa de cima para baixo;
+Integração Botton-Up - integra e testa de baixo para cima;
+
+3-) Validação (testador independente);
+Execução de roteiros de validação mesmo. E como chegamos na hora de validar o sistema como um todo, é necessário conhecermos um pouco mais do que é necessário se considerar para garantir a qualidade do software. Segundo a ISO/IEC 9126 temos as seguintes características gerais para levar em consideração:
+- Funcionalidade (satisfaz as necessidades?);
+- Confiabilidade (é imune a falhas e estável?);
+- Usabilidade (é fácil de usar?);
+- Eficiência (é rápido e eficiente?);
+- Manutenibilidade (é fácil de alterar e de manter?);
+- Portabilidade (é fácil de ser utilizado em outro ambiente?);
+
+4-) Testes de Aceitação (usuário final/gerente de produto);
+Deixar o produto nas mãos deste usuário para validar as funcionalidades novas, pode encontrar outros problemas, mas não há roteiro envolvido.

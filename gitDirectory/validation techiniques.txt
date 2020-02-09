@@ -1,0 +1,11 @@
+A validação de requisitos deve ser feita tanto por meio da análise subjetiva quanto por meio de atividades técnicas de revisão, prototipação, validação de modelo e testes de aceitação. 
+
+ Formas de validação:
+
+Revisões dos requisitos
+ 
+Prototipificação
+
+Geração de casos de teste
+
+Análise de consistência automática

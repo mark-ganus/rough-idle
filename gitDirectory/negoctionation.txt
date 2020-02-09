@@ -1,0 +1,3 @@
+ Identificar os principais interessados no sistema, subsistema ou funcionalidade; • Determinar as “condições de ganho” dos interessados; • Negociar as condições de ganho para alinhá-las em um conjunto de condições mutuamente benéficas para todos os envolvidos, inclusive a equipe de software. 
+
+São um conjunto de atividades de negociação no início de cada iteração do processo de software.

@@ -1,0 +1,3 @@
+vERificação >> Especificação de Requisitos
+
+validação >> de acordo com o cliente 
